@@ -32,3 +32,14 @@ oHySEM = "oHySEM:main"
 
 [tool.flit.sdist]
 include = ["oHySEM/img/oHySEM_v2.png"]
+
+[tool.poetry]
+name = "oHySEM"
+version = "1.0.5"
+description = "Optimization of Hybrid Systems for Energy and Market management"
+authors = ["Erik F. Alvarez"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+streamlit = "^1.0.0"
+pandas = "^1.3.0"
